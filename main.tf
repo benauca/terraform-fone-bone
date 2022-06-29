@@ -8,13 +8,9 @@ terraform {
 }
 
 variable "content" {
-  type        = string
-  default     = "Contenido de mi fichero"
   sensitive   = true
 }
 variable "password" {
-  type        = string
-  default     = "EstoEsUnaPassword"
   sensitive   = true
 }
 
